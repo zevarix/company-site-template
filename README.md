@@ -1,1 +1,1 @@
-# company-site-template
+# Template for Company Sites
