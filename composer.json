@@ -1,0 +1,16 @@
+{
+    "name": "pederklockmann/company-site-template",
+    "description": "Template for sites",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peder Klockmann",
+            "email": "peder.klockamnn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twbs/bootstrap": "^5.2"
+    }
+}
