@@ -42,6 +42,32 @@ main {
   background-color: rgba(255,255,255,0.25);
 }
 
+.carousel-item {
+  height: 20em;
+}
+
 footer {
   background-color: white;
+}
+
+#slideshow-direct-book-magazine-sales {
+    background: -webkit-cross-fade(url(../images/book-sales.jpg),
+      url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7),
+      50%
+    ) no-repeat center center fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slideshow-why-company {
+    background: -webkit-cross-fade(url(../images/why.jpg),
+      url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7),
+      50%
+    ) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

@@ -20,6 +20,7 @@
   <script defer src="vendor/fortawesome/font-awesome/js/fontawesome.js"></script>
 </head>
 <body>
+
   <header>
     <div class="container-fluid">
       <div class="d-flex flex-wrap align-items-center justify-content-start">
@@ -33,6 +34,8 @@
         </div>
       </div>
     </div>
+
+
     <div class="px-3 py-2 text-bg-dark">
       <div class="container-fluid">
         
@@ -41,7 +44,14 @@
           <div class="d-flex flex-wrap align-items-center justify-content-end">
             <ul class="nav col-12 col-lg-auto my-2 justify-content-end my-md-0 text-small">
               <li>
-                <a href="#" class="nav-link text-secondary">
+                <a href="/" class="nav-link text-secondary">
+                  <i class="fa-solid fa-house"></i>
+                  Home
+                  <div class="status"></div>
+                </a>
+              </li>
+              <li>
+                <a href="#about" class="nav-link text-white">
                   <i class="fa-solid fa-address-card"></i>
                   About
                   <div class="status"></div>
@@ -90,53 +100,54 @@
     </div>
   </header>
   <main>
-    <div class="container">
-      <div class="row">
-        <div class="d-flex justify-content-center">
-          <div class="m-5">
-            <div class="card text-center">
-              <div class="card-body">
-                <h5 class="card-title">GET ALL YOUR FAVORITE PUBLICATIONS SHIPPED DIRECTLY TO YOUR DOOR</h5>
-                <p class="card-text">and help young people move up in the business world!</p>
-                <a href="#" class="btn btn-primary">Learn More</a>
-              </div>
-            </div>
-          </div>
+    <div class="container pt-4">
+      
+      <div class="bg-light p-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Get all your favorite publications shipped directly to your door</h1>
+          <p class="col-md-8 fs-4">and help young people move up in the business world!</p>
+          <a class="btn btn-primary btn-lg">Learn More</a>
         </div>
       </div>
-    </div>
-    <div class="container-fluid text-bg-dark">
       
-      <div id="carouselExampleControls" class="carousel slide p-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container">
-              <h2>Direct Book &amp; Magazine Sales</h5>
-                <p>{{ COMPANY }} provides a wide variety of popular magazine publications and children's books across the entire United States. {{ COMPANY }} was built upon decades of experience in the door to door sales industry.</p>
-                <p>{{ COMPANY }}'s agents act as independent contractors, but clear their orders through {{ COMPANY }}, so you can be assured of high quality service and support during and after the sale.</p>
-                <p>Our independent contractors undergo a thorough, hands-on training process, making them some of the best in the business.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container">
-                <h2>Why {{ COMPANY }}?</h5>
-                  <ul>
-                    <li>{{ COMPANY }} provides the highest quality magazine subscription services.</li>
-                    <li>We help young adults get a head start on life. Each of them is given the chance to act independently, as they are self-employed, independent contractos who do business with {{ COMPANY }}.</li>
-                    <li>The independent contractors that do business with {{ COMPANY }} have the opportunity to travel the entire United States, including Hawaii.</li>
-                    <li>Along the way these young adults earn money and gain valuable business experience. All of this is accomplished in a fun, goal-driven, team-oriented environment.</li>
-                  </ul>
+    </div>
+    <div class="container-fluid text-bg-dark mt-4">
+      
+      <div id="#about">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active" id="slideshow-direct-book-magazine-sales">
+              <div class="container p-5">
+                <h2>Direct Book &amp; Magazine Sales</h5>
+                  <p>{{ COMPANY }} provides a wide variety of popular magazine publications and children's books across the entire United States. {{ COMPANY }} was built upon decades of experience in the door to door sales industry.</p>
+                  <p>{{ COMPANY }}'s agents act as independent contractors, but clear their orders through {{ COMPANY }}, so you can be assured of high quality service and support during and after the sale.</p>
+                  <p>Our independent contractors undergo a thorough, hands-on training process, making them some of the best in the business.</p>
                 </div>
               </div>
+
+              <div class="carousel-item" id="slideshow-why-company">
+                <div class="container p-5">
+                  <h2>Why {{ COMPANY }}?</h5>
+                    <ul>
+                      <li>{{ COMPANY }} provides the highest quality magazine subscription services.</li>
+                      <li>We help young adults get a head start on life. Each of them is given the chance to act independently, as they are self-employed, independent contractos who do business with {{ COMPANY }}.</li>
+                      <li>The independent contractors that do business with {{ COMPANY }} have the opportunity to travel the entire United States, including Hawaii.</li>
+                      <li>Along the way these young adults earn money and gain valuable business experience. All of this is accomplished in a fun, goal-driven, team-oriented environment.</li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </div>
