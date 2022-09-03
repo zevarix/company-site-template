@@ -1,5 +1,5 @@
 body {
-  background: url(../images/magazines.jpg) no-repeat center center fixed; 
+  background: url(../images/magazines.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,9 +11,9 @@ header .header-logo {
 }
 
 header .header-logo h1 a {
-    font: bold 2em Sans-Serif;
-    color: #fff;
-    text-shadow: 
+  font: bold 2em Sans-Serif;
+  color: #fff;
+  text-shadow: 
     1px 0px 1px #ccc, 0px 1px 1px #eee, 
     2px 1px 1px #ccc, 1px 2px 1px #eee,
     3px 2px 1px #ccc, 2px 3px 1px #eee,
@@ -26,7 +26,7 @@ header .header-logo h1 a {
 header a svg {
   margin-right: 0.5em;
 }
-  
+
 
 header ul li {
   border-left: 0.25em solid transparent;
@@ -39,9 +39,9 @@ header ul li:hover {
 }
 
 main {
-    background-color: rgba(255,255,255,0.25);
+  background-color: rgba(255,255,255,0.25);
 }
 
 footer {
-    background-color: white;
+  background-color: white;
 }
