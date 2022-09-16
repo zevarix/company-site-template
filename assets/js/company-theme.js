@@ -1,7 +1,5 @@
 /**
  * Vanilla JS
- * 
- * @param {*} event 
  */
 window.onload = (event) => {
   var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'));
