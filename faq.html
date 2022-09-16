@@ -108,8 +108,8 @@
       <div class="bg-light p-2">
         <div class="container-fluid py-4">
           <h1 class="display-5 fw-bold">Frequently Asked Questions (FAQs)</h1>
-          <h2 class="p-2">Get fast answers to the most common questions:</h2>
-          <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+          <h2>Get fast answers to the most common questions:</h2>
+          <div class="btn-group btn-group-lg mt-3" role="group" aria-label="Large button group">
             <a class="btn btn-outline-dark" href="#faq-shipping">Shipping</a>
             <a class="btn btn-outline-dark" href="#faq-orders">Orders</a>
             <a class="btn btn-outline-dark" href="#faq-problems">Problems</a>
@@ -125,13 +125,13 @@
         <div class="bg-light p-3">
 
             <!-- START SHIPPING FAQ -->
-            <h3 class="p-2" id="faq-shipping">SHIPPING</h3>
+            <h3 class="p-2 m-1" id="faq-shipping">SHIPPING</h3>
 
             <div class="accordion" id="accordionFAQShipping">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accordionFAQShippingHeadingOne">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionFAQShippingOne" aria-expanded="false" aria-controlls="accordionFAQShippingOne">
-                    Can I order an item and have it shipped to an address outside of the USA?
+                    <strong>Can I order an item and have it shipped to an address outside of the USA?</strong>
                   </button>
                 </h2>
                 <div id="accordionFAQShippingOne" class="accordion-collapse collapse" aria-labelledby="accordionFAQShippingHeadingOne" data-bs-parent="#accordionFAQShipping">
@@ -143,7 +143,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accordionFAQShippingHeadingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionFAQShippingTwo" aria-expanded="false" aria-controlls="accordionFAQShippingTwo">
-                    I need to change the mailing address you have for my order. How can I do that?
+                    <strong>I need to change the mailing address you have for my order. How can I do that?</strong>
                   </button>
                 </h2>
                 <div id="accordionFAQShippingTwo" class="accordion-collapse collapse" aria-labelledby="accordionFAQShippingHeadingTwo" data-bs-parent="#accordionFAQShipping">
@@ -157,13 +157,13 @@
             <!-- END SHIPPING FAQ -->
         
             <!-- START ORDERS FAQ -->
-            <h3 class="p-2" id="faq-orders">ORDERS</h3>
+            <h3 class="p-2 m-1" id="faq-orders">ORDERS</h3>
 
             <div class="accordion" id="accordionFAQOrders">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accordionFAQOrdersHeadingOne">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionFAQOrdersOne" aria-expanded="false" aria-controlls="accordionFAQOrdersOne">
-                    How long does it take for my first magazine or book order to arrive after I've purchased it?
+                    <strong>How long does it take for my first magazine or book order to arrive after I've purchased it?</strong>
                   </button>
                 </h2>
                 <div id="accordionFAQOrdersOne" class="accordion-collapse collapse" aria-labelledby="accordionFAQOrdersHeadingOne" data-bs-parent="#accordionFAQOrders">
@@ -176,7 +176,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accordionFAQOrdersHeadingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionFAQOrdersTwo" aria-expanded="false" aria-controlls="accordionFAQOrdersTwo">
-                    I have entered my receipt number through your website but am unable to view or track my order. Does this mean you have not received my order yet?
+                    <strong>I have entered my receipt number through your website but am unable to view or track my order. Does this mean you have not received my order yet?</strong>
                   </button>
                 </h2>
                 <div id="accordionFAQOrdersTwo" class="accordion-collapse collapse" aria-labelledby="accordionFAQOrdersHeadingTwo" data-bs-parent="#accordionFAQOrders">
@@ -188,7 +188,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="accordionFAQOrdersHeadingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionFAQOrdersThree" aria-expanded="false" aria-controlls="accordionFAQOrdersThree">
-                    How can I cancel my order?
+                    <strong>How can I cancel my order?</strong>
                   </button>
                 </h2>
                 <div id="accordionFAQOrdersThree" class="accordion-collapse collapse" aria-labelledby="accordionFAQOrdersHeadingThree" data-bs-parent="#accordionFAQOrders">
@@ -203,7 +203,7 @@
             <!-- END ORDERS FAQ -->
         
             <!-- START PROBLEMS FAQ -->
-            <h3 class="p-2" id="faq-problems">PROBLEMS</h3>
+            <h3 class="p-2 m-1" id="faq-problems">PROBLEMS</h3>
 
 
             <p class="question" id="problems-1">
@@ -223,7 +223,7 @@
             <!-- END PROBLEMS FAQ -->
         
             <!-- START MISC FAQ -->
-            <h3 class="p-2" id="faq-misc">MISC</h3>
+            <h3 class="p-2 m-1" id="faq-misc">MISC</h3>
 
 
             <p class="question" id="misc-1">
@@ -237,17 +237,19 @@
               <br>
               Mailed to a business, but addressed to a person. <span class="green bold">This is allowed</span>.
             </p>
-              <pre>			Mr. Chuck McSteak
+              <pre><code>
+              Mr. Chuck McSteak
               123 W. Happy Ave
               Phoenix, AZ, 85251
-              </pre>
+              </code></pre>
             <p class="answer">
               Mailed to a business directly. <span class="red bold">This is NOT allowed</span>.
             </p>
-              <pre>			ABC Hospital
+              <pre><code>
+              ABC Hospital
               123 W. Happy Ave
               Phoenix, AZ 85251
-              </pre>
+              </code></pre>
             <!-- END MISC FAQ -->
             <br>
             <br>
@@ -257,9 +259,7 @@
 
     </div>
 
-    <div class="container-fluid text-bg-dark mt-4">
 
-    </div>
 
   </main>
   
