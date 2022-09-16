@@ -12,6 +12,7 @@
     "minimum-stability": "dev",
     "require": {
         "twbs/bootstrap": "^5.2",
-        "fortawesome/font-awesome": "6.2.0"
+        "fortawesome/font-awesome": "6.2.0",
+        "components/jquery": "dev-master"
     }
 }

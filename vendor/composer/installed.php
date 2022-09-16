@@ -5,11 +5,22 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '51120c36968a5ccdb9a2316f37729804aafb59d7',
+        'reference' => '7c9c8074cbb09fe782185764d48099f703f6d801',
         'name' => 'pederklockmann/company-site-template',
         'dev' => true,
     ),
     'versions' => array(
+        'components/jquery' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'component',
+            'install_path' => __DIR__ . '/../components/jquery',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => 'e1aae44bdc763e95e49128bb78f82008714c43db',
+            'dev_requirement' => false,
+        ),
         'fortawesome/font-awesome' => array(
             'pretty_version' => '6.2.0',
             'version' => '6.2.0.0',
@@ -25,7 +36,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '51120c36968a5ccdb9a2316f37729804aafb59d7',
+            'reference' => '7c9c8074cbb09fe782185764d48099f703f6d801',
             'dev_requirement' => false,
         ),
         'twbs/bootstrap' => array(

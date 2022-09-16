@@ -1,6 +1,59 @@
 {
     "packages": [
         {
+            "name": "components/jquery",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "e1aae44bdc763e95e49128bb78f82008714c43db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/e1aae44bdc763e95e49128bb78f82008714c43db",
+                "reference": "e1aae44bdc763e95e49128bb78f82008714c43db",
+                "shasum": ""
+            },
+            "time": "2022-02-20T20:58:48+00:00",
+            "default-branch": true,
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JS Foundation and other contributors"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "support": {
+                "forum": "http://forum.jquery.com",
+                "irc": "irc://irc.freenode.org/jquery",
+                "issues": "https://github.com/jquery/jquery/issues",
+                "source": "https://github.com/jquery/jquery",
+                "wiki": "http://docs.jquery.com/"
+            },
+            "install-path": "../components/jquery"
+        },
+        {
             "name": "fortawesome/font-awesome",
             "version": "6.2.0",
             "version_normalized": "6.2.0.0",

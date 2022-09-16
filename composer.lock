@@ -4,8 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78948f8181dac25822fe686d893fa598",
+    "content-hash": "7403094b038f1af4c456f63864e72cec",
     "packages": [
+        {
+            "name": "components/jquery",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "e1aae44bdc763e95e49128bb78f82008714c43db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/e1aae44bdc763e95e49128bb78f82008714c43db",
+                "reference": "e1aae44bdc763e95e49128bb78f82008714c43db",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map",
+                        "jquery.slim.js",
+                        "jquery.slim.min.js",
+                        "jquery.slim.min.map"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "JS Foundation and other contributors"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "support": {
+                "forum": "http://forum.jquery.com",
+                "irc": "irc://irc.freenode.org/jquery",
+                "issues": "https://github.com/jquery/jquery/issues",
+                "source": "https://github.com/jquery/jquery",
+                "wiki": "http://docs.jquery.com/"
+            },
+            "time": "2022-02-20T20:58:48+00:00"
+        },
         {
             "name": "fortawesome/font-awesome",
             "version": "6.2.0",
@@ -105,7 +155,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "components/jquery": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
