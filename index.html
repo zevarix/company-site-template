@@ -22,7 +22,7 @@
       <div class="d-flex flex-wrap align-items-center justify-content-start">
         <div class="header-logo">
           <h1>
-            <a href="/" class="d-flex align-items-center text-decoration-none">
+            <a href="index.html" class="d-flex align-items-center text-decoration-none">
               <!-- <i class="fa-solid fa-house"></i> -->
               Company Logo
             </a>
@@ -33,21 +33,21 @@
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">{{ COMPANY }}</a>
+        <a class="navbar-brand" href="index.html">{{ COMPANY }}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
           <ul class="navbar-nav">
             <li>
-              <a href="index.html" class="nav-link text-secondary">
+              <a href="index.html" class="nav-link text-white">
                 <i class="fa-solid fa-house"></i>
                 Home
                 <div class="status"></div>
               </a>
             </li>
             <li>
-              <a href="index.html#about" class="nav-link text-white">
+              <a href="#about" class="nav-link text-white">
                 <i class="fa-solid fa-address-card"></i>
                 About
                 <div class="status"></div>
@@ -68,7 +68,7 @@
               </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarLoginDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarLoginDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-user"></i>
                 Login  
               </a>
@@ -114,24 +114,27 @@
       </div>
       
     </div>
+
     <div class="container-fluid text-bg-dark mt-4">
       
-      <div id="#about">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="about">
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-
-            <div class="carousel-item active" id="slideshow-direct-book-magazine-sales">
-              <div class="container p-5">
-                <h2>Direct Book &amp; Magazine Sales</h5>
-                  <p>{{ COMPANY }} provides a wide variety of popular magazine publications and children's books across the entire United States. {{ COMPANY }} was built upon decades of experience in the door to door sales industry.</p>
-                  <p>{{ COMPANY }}'s agents act as independent contractors, but clear their orders through {{ COMPANY }}, so you can be assured of high quality service and support during and after the sale.</p>
-                  <p>Our independent contractors undergo a thorough, hands-on training process, making them some of the best in the business.</p>
+            
+              <div class="carousel-item active" id="slideshow-direct-book-magazine-sales">
+                <div class="container">
+                  <div class="p-5">
+                    <h2>Direct Book &amp; Magazine Sales</h2>
+                    <p>{{ COMPANY }} provides a wide variety of popular magazine publications and children's books across the entire United States. {{ COMPANY }} was built upon decades of experience in the door to door sales industry.</p>
+                    <p>{{ COMPANY }}'s agents act as independent contractors, but clear their orders through {{ COMPANY }}, so you can be assured of high quality service and support during and after the sale.</p>
+                    <p>Our independent contractors undergo a thorough, hands-on training process, making them some of the best in the business.</p>
+                  </div>
                 </div>
               </div>
-
               <div class="carousel-item" id="slideshow-why-company">
-                <div class="container p-5">
-                  <h2>Why {{ COMPANY }}?</h5>
+                <div class="container">
+                  <div class="p-5">
+                    <h2>Why {{ COMPANY }}?</h5>
                     <ul>
                       <li>{{ COMPANY }} provides the highest quality magazine subscription services.</li>
                       <li>We help young adults get a head start on life. Each of them is given the chance to act independently, as they are self-employed, independent contractos who do business with {{ COMPANY }}.</li>
@@ -140,21 +143,22 @@
                     </ul>
                   </div>
                 </div>
-
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
-            </div>
+
           </div>
         </div>
       </div>
+
     </div>
+
   </main>
   
   <footer class="container-fluid">
@@ -162,7 +166,7 @@
       <div class="container">
         
         <div class="row">
-          <div class="col-12">
+          <div class="col-md-6 col-sm-12">
             <h5>Navigation</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
@@ -176,7 +180,7 @@
           </div>
           
           <div class="col-md-5 offset-md-1 mb-3">
-            
+            Temp Right Side placeholer
           </div>
         </div>
         
