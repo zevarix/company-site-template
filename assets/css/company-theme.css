@@ -34,7 +34,7 @@ header ul li {
   border-bottom: 0.25em solid transparent;
 }
 
-header ul li:hover {  
+header ul li:hover {
   border-bottom: 0.25em solid white;
 }
 
@@ -43,7 +43,7 @@ main {
 }
 
 .carousel-item {
-  height: 20em;
+  min-height: 15em;
 }
 
 footer {
