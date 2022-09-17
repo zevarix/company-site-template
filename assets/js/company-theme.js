@@ -2,9 +2,19 @@
  * Vanilla JS
  */
 window.onload = (event) => {
+  // Dropdowns
   var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'));
+ 
   var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
-    return new bootstrap.Dropdown(dropdownToggleEl)
+    return new bootstrap.Dropdown(dropdownToggleEl);
+  });
+
+  // Modals
+  const contactModal = document.getElementById('contactModal');
+  const contactModalInput = document.getElementById('contactModalInput');
+
+  contactModal.addEventListener('shown.bs.modal', () => {
+    contactModalInput.focus();
   });
 
 };
