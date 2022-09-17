@@ -112,23 +112,23 @@
             <!-- action="includes/send-contact-form.php" -->
             <form method="post" action="#">
               <div class="mb-3">
-                <label for="firstname" class="form-label">First Name</label>
+                <label for="firstname" class="form-label">First Name <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="firstname" name="firstname" required="required">
               </div>
               <div class="mb-3">
-                <label for="lastname" class="form-label">Last Name</label>
+                <label for="lastname" class="form-label">Last Name <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="lastname" name="lastname" required="required">
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email Address</label>
+                <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
                 <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required="required">
               </div>
               <div class="mb-3">
-                <label for="phone" class="form-label">Phone</label>
+                <label for="phone" class="form-label">Phone <span class="text-danger">*</span></label>
                 <input type="tel" class="form-control" id="phone" name="phone" required="required">
               </div>
               <div class="mb-3">
-                <label for="streetaddress" class="form-label">Street Address</label>
+                <label for="streetaddress" class="form-label">Street Address <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="streetaddress" name="streetaddress" required="required">
               </div>
               <div class="mb-3">
@@ -136,9 +136,9 @@
                 <input type="text" class="form-control" id="streetaddress2" name="streetaddress2">
               </div>
               <div class="input-group mb-3">
-                <span class="input-group-text">City</span>
+                <span class="input-group-text">City &nbsp;<span class="text-danger">*</span></span>
                 <input type="text" class="form-control" aria-label="City" name="city" id="city">
-                <span class="input-group-text">State</span>
+                <span class="input-group-text">State &nbsp;<span class="text-danger">*</span></span>
                 <select class="form-select" name="state" id="state" aria-label="State">
                   <option selected="" disabled="">- Select -</option>
                   <option value="AL">AL</option>
@@ -193,19 +193,19 @@
                   <option value="WI">WI</option>
                   <option value="WY">WY</option>
                 </select>
-                <span class="input-group-text">Zip</span>
+                <span class="input-group-text">Zip &nbsp;<span class="text-danger">*</span></span>
                 <input type="text" class="form-control" placeholder="99999-9999" aria-label="Zip">
               </div>
               <div class="mb-3">
-                <label for="receipt" class="form-label">Receipt Number</label>
+                <label for="receipt" class="form-label">Receipt Number <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="receipt" name="receipt" required="required">
               </div>
               <div class="mb-3">
-                <label for="products" class="form-label">Products Ordered</label>
+                <label for="products" class="form-label">Products Ordered <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="products" name="products" required="required">
               </div>
               <div class="mb-3">
-                <label for="comment" class="form-label">Coments / Questions</label>
+                <label for="comment" class="form-label">Coments / Questions <span class="text-danger">*</span></label>
                 <textarea class="form-control" id="comment" name="comment" rows="4" required="required"></textarea>
               </div>
               <div class="d-grid">
@@ -240,7 +240,7 @@
           </div>
           
           <div class="col-md-5 offset-md-1 mb-3">
-            Temp Right Side placeholer
+            <!-- Right side footer placeholer -->
           </div>
         </div>
         
