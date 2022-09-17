@@ -168,8 +168,9 @@
                     <input type="text" class="form-control" id="zip" name="zip" required="required">
                   </div>
                   <div class="mb-3">
-                    <label for="message" class="form-label">MESSAGE - What makes you perfect for our team? <span class="text-danger">*</span></label>
-                    <textarea class="form-control" id="message" name="message" rows="4" required="required"></textarea>
+                    <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                    <textarea class="form-control" id="message" name="message" rows="4" aria-describedby="messageHelp" required="required"></textarea>
+                    <div id="messageHelp" class="form-text">What makes you perfect for our team?</div>
                   </div>
                   <div class="d-grid">
                     <button type="submit" class="btn btn-outline-dark btn-lg mb-3">Submit</button>
