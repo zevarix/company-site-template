@@ -77,3 +77,56 @@ footer {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 5em solid transparent;
+  border-left: 6em solid #198754;
+  border-right: 5em solid transparent;
+  border-bottom: 5em solid transparent;
+  position: absolute;
+  margin-left: -1.5em;
+  margin-top: 6.75em;
+}
+
+/* Small devices */
+@media only screen and (max-width: 767px) {
+  .arrow-right {
+    margin-top: 14em;
+    margin-left: -13em;
+    border-top: 2em solid transparent;
+    border-left: 2em solid #198754;
+    border-right: 2em solid transparent;
+    border-bottom: 2em solid transparent;
+    transform: rotate(90deg);
+    z-index: 0;
+  }
+}
+/* Medium devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .arrow-right {
+    margin-top: 12em;
+    margin-left: -20em;
+    border-left: 2em solid #198754;
+    transform: rotate(90deg);
+  }
+}
+/* Large devices */
+@media only screen and (min-width: 992px) and (max-width: 1999px){
+  .arrow-right {
+    margin-top: 7.5em;
+  }
+}
+/* Extra large devices */
+@media only screen and (min-width: 1200px) {
+  .arrow-right {
+    margin-top: 7.75em;
+  }
+}
+ /* Extra extra large devices */
+@media only screen and (min-width: 1400px) {
+  .arrow-right {
+    margin-top: 6.75em;
+  }
+}
